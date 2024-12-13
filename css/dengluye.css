@@ -1,0 +1,246 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 思源黑体;
+	
+}
+/* 第一大部分开始 */
+/* 顶部 */
+ .dingbu{ 
+	 width: 1200px;
+	 height: 50px;
+	 
+	 
+	 margin: 0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+ }
+ .dingbu img{
+	float: left;	
+	margin-top: 10px;
+ }
+.dingbu h1 {
+	float: left;
+	margin: 0 auto;
+	margin-left:400px;
+border-left: 50px;
+padding-top: 0px;
+/* background-color: aliceblue; */
+font-size: 40px;
+width: 400px;
+height: px;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+ .dingbu  ul {
+	 padding-top: -20px;
+	 float: right;
+	 overflow: hidden;	
+	 margin-top: 17px;
+ } 
+ .dingbu ul li{
+	 float: left;
+	 list-style-type: none;
+font-size: 18px;
+margin-right: 10px;
+ }
+ 
+
+
+.dingbu ul li img{
+	width:26px;
+	height: 26px;
+	margin-top: 2px;
+}
+
+.xian{
+	width:1200px;
+	height: 14px;
+	
+	border-bottom: 1px solid #e9e8e8;
+	margin: 0 auto;
+}
+
+/* 登录框 */
+.container{
+	position:absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 800px;
+	height:600px;
+	border: 1px solid #333333;
+	
+}
+.imgbox{
+	width:360px;
+	height:600px;
+	overflow: hidden;
+	float: right;
+	
+}
+.imgbox img{
+	width:113%;
+	margin-right: 50px;
+}
+
+.loginbox{
+	float: left;
+	width: 440px;
+	height: 600px;
+	box-sizing: ;
+	borderbox: ;
+	padding-top: 80px;
+	position: absolute;
+	
+}
+
+h2{
+	margin: 0;
+	padding: 0 0 20px;
+	color:#333333;
+	position: relative;
+	left: 180px;
+	
+}
+h2 span{
+	font-size: 10px;
+	color: #999999;
+	padding-top: 50px;
+	position: relative;
+	right: 66px;
+	top: -16px;
+}
+.loginbox input[type="text"],
+.loginbox input[type="password"]
+{border: none;
+height: 44px;
+width: 310px;
+color: red;
+font-size: 16px;
+background-color: #E9E8E8;
+	padding-left: 16px;
+	padding-bottom: 1px;outline: none;
+	margin-left: 52px;
+	border-radius: 6px;
+}
+::placeholder{
+	color: #999999;
+	
+}
+.inputbox{
+	margin-top: 40px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 44px;
+	width: 330px;
+	font-size: 24px;
+	color: #FFFFFF;
+	background-color: #10443b;
+	margin-top: 40px;	
+	border-radius: 40px;
+	margin-left: 52px;
+
+}
+ .qita{
+	 margin-top: 50px;
+	 margin-left: 136px;
+	 
+ }
+ p{
+	font-size: 20px;
+	color: #666666;
+}
+.qita .tubiao img{
+	margin-left: 18px;
+	margin-top: 26px;
+}
+/* 文字框结束 */
+
+/* 中间字开始 */
+.wenzitishi{
+	
+	width: 640px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-left: 100px;
+}
+.wenzitishi p{
+	font-size: 20px;
+	color: #999999;font-weight: 400;
+}
+.wenzitishi p span{
+	margin-left: 20px;
+	
+}
+/* 框框结束 */
+
+/* 底部开始 */
+/* 底部开始 */
+.dibu{
+	height: 415px;
+	background-color: #2a292d;
+	margin-top: 1000px;}
+	
+.dibu .zhongjian{
+	width: 1200px;
+	height: 415px;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+.dibu .zhongjian .liebiao{
+	width: 800px;
+	height: 200px;
+
+	position: absolute;
+	margin-top: 115px;
+	
+}
+
+.dibu .zhongjian .liebiao ul{
+	float: left;
+	margin-right: 96px;
+	margin-top: 66px;
+}
+.dibu .zhongjian .liebiao ul li{
+	font-size: 20px;
+	line-height: 30px;
+	list-style-type: none;
+	color: #FFFFFF;
+}
+.dibu .zhongjian .liebiao ul .a{
+	width: 80px;
+	height: 40px;
+	
+	position: relative;
+	top: -40px;
+}
+.dibu .zhongjian .zouxiu{
+	width: 262px;
+	height: 132px;
+	
+	float: right;
+	margin-top: 119px;
+	}
+.dibu .zhongjian .beianhao {
+	width: 600px;
+	
+	margin: 0 auto;
+	margin-top: 369px;
+}
+.dibu .zhongjian .beianhao ul li {
+	font-size: 14px;
+	color: #FFFFFF;
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+}	
+/* 底部结束 */	

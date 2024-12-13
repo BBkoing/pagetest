@@ -1,0 +1,371 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 思源黑体;
+	
+	
+}
+
+
+/* 第一大部分开始 */
+/* 顶部 */
+ .bigbox .dingbu{ 
+	 width: 1200px;
+	 height: 42px;
+	
+	 
+	 margin: 0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+ }
+ .dingbu img{
+	float: left;	
+	margin-top: 10px;
+ }
+.dingbu h1 {
+	float: left;
+	margin: 0 auto;
+	margin-left:200px;
+border-left: 50px;
+padding-top: 0px;
+/* background-color: aliceblue; */
+font-size: 40px;
+width: 400px;
+height: px;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+ .dingbu  ul {
+	 padding-top: 4px;
+	 float: right;
+	 overflow: hidden;
+	
+	 margin-top: 17px;
+ } 
+ .dingbu ul li{
+	 float: left;
+	 list-style-type: none;
+font-size: 14px;
+margin-right: 5px;
+ }
+ 
+.dingbu ul li a{ text-decoration: none;
+color: #666666;
+font-weight: bold;
+
+}
+
+.dingbu ul li img{
+	width:14px;
+	height: 14px;
+	margin-top: 2px;
+}
+
+
+/* 第二部分 */
+/* 导航开始 */
+/* 导航开始 */
+.navigation {
+	background-color: #FFFFFF;
+	font-weight: 540;
+	width: 1200px;
+	
+	margin: 0 auto;
+}
+
+.navigation-list {
+	font-size: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-left: 305px;
+	
+}
+
+.navigation-item {
+	font-size: 20px;
+	float: left;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.navigation-link {
+	display: block;
+	position: relative;
+	padding: 5px 30px;
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+.navigation-link:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	border-bottom: solid 2px;
+}
+
+.navigation-link:before {
+	left: 0;
+}
+
+.navigation-link:hover {
+	color: #009688;
+}
+
+.navigation-link:hover:before {
+	width: 100%;
+}
+
+.navigation-link:before {
+	-webkit-transition: width .2s ease-in-out;
+	transition: width .2s ease-in-out;
+}
+
+/* 导航结束 */
+
+/* bnnner部分 */
+ul,li {list-style: none;}
+a {text-decoration: none;color: black;}
+.box{width: 100%;height: 750px;margin: 20px auto;overflow: hidden;position: relative;margin-top: 40px;
+}
+.box-1 ul{}
+.box-1 ul li{width: 1920px;height: 750px;position: relative;overflow: hidden;}
+.box-1 ul li img{display:block;width: 1920px; height: 750px;}
+.box-1 ul li h2{position: absolute;left: 0;bottom: 0;height: 40px;width:300px;background: rgba(125,125,120,.4);text-indent: 2em;
+				padding-right:500px ;font-size: 15px;line-height: 40px;text-overflow: ellipsis;overflow: hidden;
+				white-space: nowrap;font-weight: normal;color: ghostwhite}
+.box-2{position: absolute;right: 10px;bottom: 14px;}
+.box-2 ul li{float:left;width: 12px;height: 12px;overflow: hidden; margin: 0 5px; border-radius: 50%;
+				background: rgba(0,0,0,0.5);text-indent: 100px;cursor: pointer;}
+.box-2 ul .on{background: rgba(255,255,255,0.6);}
+.box-3 span{position: absolute;color: white;background: rgba(125,125,120,.3);width: 50px;height: 80px;
+				top:50%; font-family: "宋体";line-height: 80px;font-size:60px;margin-top: -40px;
+				text-align: center;cursor: pointer;}
+.box-3 .prev{left: 10px;}
+.box-3 .next{right: 10px;}
+.box-3 span::selection{background: transparent;}
+.box-3 span:hover{background: rgba(125,125,120,.8);}
+/* 轮播图结束 */
+
+
+/* 主体开始 */
+/* 主体大盒子 */
+.zhuti{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+/* 设计团队开始 */
+.shejituandui{
+	height: 410px;
+	margin-top: 80px;
+	
+}
+.shejituandui .bt{
+	margin: 0 auto;position: relative;
+	right: 50px;
+	
+}
+.shejituandui .zhu1{
+	width: 558px;
+	height: 301px;
+	float: left;
+	margin-top: 100px;overflow: hidden;
+	
+}
+.shejituandui .z1 p{
+	font-size: 20px;
+	color: #666666;
+	font-weight: 800;
+	margin-top: 30px;
+}
+.shejituandui .z1 .zz1{
+	width: 543px;
+	height: 43px;
+}
+.zz1 span{
+	font-size: 12px;
+	color: #666666;
+	line-height: 18px;font-weight: 600;
+}
+.zhu1 img{
+	margin-left: 6px;
+}
+/* 左边
+右边 */
+.shejituandui .zhu2{
+	width: 558px;
+	height: 301px;
+	float: right;
+	margin-top: 100px;
+	position: relative;top: -54px;
+}
+.shejituandui .z1 p{
+	font-size: 20px;
+	color: #666666;
+	font-weight: 800;
+	margin-top: 30px;
+}
+.shejituandui .z1 .zz1{
+	width: 543px;
+	height: 43px;
+}
+.zz1 span{
+	font-size: 12px;
+	color: #666666;
+	line-height: 18px;font-weight: 600;
+}
+.zhu2 img{
+	margin-left: 6px;
+}
+/* 设计团队结束 */
+/* 中间图层开始 */
+/* 第二大部分背景 */
+.zhongjian{
+	width: 100%;
+	height: 1200px;background-color:#ECECEC;
+	margin: 0 auto;margin-top: 62px;
+}
+ .neirong{
+	width: 1200px;
+	height: 1122px;
+	
+	margin: 0 auto;position: relative;left:-;
+	overflow: hidden;
+}
+.neirong .tt{
+	float: left;
+	position: relative;
+	left: 490px;
+	top: 57px;
+}
+.neirong .datu{
+margin-top: 206px;
+z-index: 0;margin-right: 50PX;
+}
+.neirong .xiaotu1{
+	position: relative;
+	top: -821px;
+	left: 20px;
+}
+.neirong .xiaotu2{
+	position: relative;
+	top: -232px;
+	left: 660px;
+}
+/* 文段开始 */
+.zhongjian .wenduan{
+	width: 200px;height: 130px;
+	
+	margin: 0 auto;
+	position: relative;top: -700px;right: -490px;
+}
+.zhongjian .wenduan p{
+	color: #333333;font-size: 12px;font-weight: 600;
+}
+.zhongjian .wenduan span{font-size: 20px; font-weight: 800 ;position: relative;top:-10px; }
+/* 右边文案结束 */
+.zhongjian .wenduan2{
+	width: 200px;height: 130px;
+	
+	margin: 0 auto;
+	position: relative;top: -528px;right: 480px;
+}
+.zhongjian .wenduan2 p{
+	color: #cbcbcb;font-size: 10px;font-weight: 600;
+}
+/* 中间部分结束 */
+
+/* 制作过程开始 */
+.guocheng{
+	width: 1200px;
+	height: 274px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.guocheng .zhizuo{}
+.guocheng .guo1{
+	width: 379px;height: 271px;
+	float: left;margin-left: 14px;
+}
+.guocheng .guo1 p{
+font-size: 14px;color: #333333;font-weight: 600;	position: relative;top:10px;
+}
+.zhizuo{
+width: 1200px;
+	height: 48px;	
+	margin: 0 auto;
+	
+	margin-top: 80px;
+}
+.zhizuo .zhizuobiaoti{
+	position: relative;left: 506px;
+}
+/* 制作过程结束 */
+
+/* 底部开始 */
+.dibu{
+	height: 415px;
+	background-color: #2a292d;
+	margin-top: 86px;}
+	
+.dibu .dibubeijin{
+	width: 1200px;
+	height: 415px;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+.dibu .dibubeijin .liebiao{
+	width: 800px;
+	height: 200px;
+	
+	position: absolute;
+	margin-top: 115px;
+	
+}
+
+.dibu .dibubeijin .liebiao ul{
+	float: left;
+	margin-right: 96px;
+	margin-top: 66px;
+	
+}
+.dibu .dibubeijin .liebiao ul li{
+	font-size: 20px;
+	line-height: 30px;
+	list-style-type: none;
+	color: #FFFFFF;
+}
+.dibu .dibubeijin .liebiao ul .a{
+	width: 80px;
+	height: 40px;
+	
+	position: relative;
+	top: -40px;
+}
+.dibu .dibubeijin .zouxiu{
+	width: 262px;
+	height: 132px;
+	
+	float: right;
+	margin-top: 119px;
+	}
+.dibu .dibubeijin .beianhao {
+	width: 600px;
+	
+	margin: 0 auto;
+	margin-top: 369px;
+}
+.dibu .dibubeijin .beianhao ul li {
+	font-size: 14px;
+	color: #FFFFFF;
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+}	
+/* 底部结束 */	

@@ -1,0 +1,399 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 思源黑体;
+	
+}
+/* 第一大部分开始 */
+/* 顶部 */
+ .bigbox .dingbu{ 
+	 width: 1200px;
+	 height: 42px;
+	 
+	 
+	 margin: 0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+ }
+ .dingbu img{
+	float: left;	
+	margin-top: 10px;
+ }
+.dingbu h1 {
+	float: left;
+	margin: 0 auto;
+	margin-left:200px;
+border-left: 50px;
+padding-top: 0px;
+/* background-color: aliceblue; */
+font-size: 40px;
+width: 400px;
+height: px;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+ .dingbu  ul {
+	 padding-top: 4px;
+	 float: right;
+	 overflow: hidden;
+	
+	 margin-top: 17px;
+ } 
+ .dingbu ul li{
+	 float: left;
+	 list-style-type: none;
+font-size: 14px;
+margin-right: 5px;
+ }
+ 
+.dingbu ul li a{ text-decoration: none;
+color: #666666;
+font-weight: bold;
+
+}
+
+.dingbu ul li img{
+	width:14px;
+	height: 14px;
+	margin-top: 2px;
+}
+
+
+/* 第二部分 */
+/* 导航开始 */
+/* 导航开始 */
+.navigation {
+	background-color: #FFFFFF;
+	font-weight: 540;
+	width: 1200px;
+	
+	margin: 0 auto;
+}
+
+.navigation-list {
+	font-size: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-left: 305px;
+	
+}
+
+.navigation-item {
+	font-size: 20px;
+	float: left;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.navigation-link {
+	display: block;
+	position: relative;
+	padding: 5px 30px;
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+.navigation-link:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	border-bottom: solid 2px;
+}
+
+.navigation-link:before {
+	left: 0;
+}
+
+.navigation-link:hover {
+	color: #009688;
+}
+
+.navigation-link:hover:before {
+	width: 100%;
+}
+
+.navigation-link:before {
+	-webkit-transition: width .2s ease-in-out;
+	transition: width .2s ease-in-out;
+}
+
+/* 导航结束 */
+
+/* bnnner部分 */
+.banner2{
+	height: 750px;
+	background: url(../img/crazy-女装设计_13.png) no-repeat top center;
+	margin-top: 60px;
+}
+/* 第一大部分结束 */
+
+/* 品牌介绍 */
+.pinpai{
+	width: 1200px;
+	height:606px;
+	margin: 0 auto;
+	
+	margin-top: 80px;
+	overflow: hidden;
+	
+	
+}
+
+.pinpai .red{
+	width: 368px;
+	height: 606px;
+
+	margin-left: 60px;
+	overflow: hidden;
+}
+
+.pinpai .ti{
+	width: 196px;
+	height: 46px;
+	
+	position: relative;
+	top: -534px;
+	left: 685px;
+	
+}
+.wenan .zhengwen{
+	width: 690px;
+	height: 330px;
+	
+	float: right;
+	position: relative;
+	top:-500px;
+}
+.wenan .zhengwen p{
+	color:#666666;
+	font-weight: bolder;
+	font-size: 16px;
+	line-height: 28px;
+	text-indent:28px;
+}
+.pinpai .zhengwen .more{
+	margin-top:30px;
+	
+}
+/* 品牌介绍结束 */
+
+
+/* 主营时装 */
+.zhuyingshizhuang{
+	width: 1200px;
+	height: 565px;
+	margin: 0 auto;
+ 
+ margin-top: 80px;
+ 
+}
+.zhuyingshizhuang .title{
+	width: 196px;
+	height: 48px;
+	margin: 0 auto;
+}
+
+.zhuyingshizhuang .tupian{
+width: 1200px;
+height: 458px;
+	margin: 0 auto;
+ 	
+ margin-top: 36px;
+ position: absolute;
+}
+.zhuyingshizhuang .tupian img{
+	float: left;
+	padding-top: 105px;
+}
+
+.zhuyingshizhuang .tupian .da{
+	position: relative;
+		top:-105px;
+}
+/* 主营时装结束 */
+
+
+/* 设计优势开始 */
+.shejiyoushi{
+	width: 1200px;
+	height: 871px;
+	margin: 0 auto;
+	
+	margin-top: 80px;	
+}
+
+.shejiyoushi .title{
+	width: 196px;
+	height: 48px;
+	margin: 0 auto;
+}
+.shejiyoushi .hezi{
+	width: 1200px;
+	height: 373px;
+	
+	margin-top:36px;
+}
+.shejiyoushi .hezi .wenzi{
+	width: 686px;
+	height: 213px;
+	
+	background-color: #ececec;
+	float: right;
+	margin-top: 88px;
+}
+.shejiyoushi .hezi .wenzi img{
+	margin-left: 130px;
+	margin-top: 20px;
+	
+}
+.shejiyoushi .hezi .wenzi p{
+	font-family: 思源黑体;
+	font-size: 16px;
+	font-weight: bolder;
+	line-height: 32px;
+	color: #666666;
+	margin-top: 10px;	
+	margin-left: 130px;
+}
+
+
+.shejiyoushi .hezi2 {
+	width: 1200px;
+	height: 373px;
+	
+	
+}
+.shejiyoushi .hezi2 .wenzi2{
+	width: 686px;
+	height: 213px;
+	
+	background-color: #ececec;
+	float: left;
+	margin-top: 88px;
+}
+.shejiyoushi .hezi2 .wenzi2 img{
+	margin-right:116px;
+	margin-top: 20px;
+}
+.shejiyoushi .hezi2 .wenzi2 p{
+	font-family: 思源黑体;
+	font-size: 16px;
+	font-weight: bolder;
+	line-height: 32px;
+	color: #666666;
+	margin-top: 10px;	
+	margin-right: 130px;
+	text-align: right;
+}
+/* 设计优势结束 */
+
+
+
+/* 横幅开始 */
+.hengfu{
+	height:400px;
+	background: url(../img/横幅.png) no-repeat top center;
+	margin-top: 30px;
+}
+/* 横幅结束 */
+
+
+/* 产品展示开始 */
+.chanpinzhan{
+	width: 1200px;
+	height: 1099px;
+	
+	margin: 0 auto;
+margin-top: 80px;
+}
+.chanpinzhan .to {
+	width: 196px;
+	height: 48px;
+	margin: 0 auto;
+	
+}
+.chanpinzhan .tu{
+	width:1200px;
+	margin: 0 auto;
+	
+	margin-top: 42px;
+}
+.chanpinzhan .tu img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.chanpinzhan .tu #1:hover{
+	
+}
+	
+
+/* 产品展示结束 */
+
+/* 底部开始 */
+.dibu{
+	height: 415px;
+	background-color: #2a292d;
+	margin-top: 70px; }
+	
+.dibu .zhongjian{
+	width: 1200px;
+	height: 415px;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+.dibu .zhongjian .liebiao{
+	width: 800px;
+	height: 200px;
+	
+	position: absolute;
+	margin-top: 115px;
+	
+}
+
+.dibu .zhongjian .liebiao ul{
+	float: left;
+	margin-right: 96px;
+	margin-top: 66px;
+}
+.dibu .zhongjian .liebiao ul li{
+	font-size: 20px;
+	line-height: 30px;
+	list-style-type: none;
+	color: #FFFFFF;
+}
+.dibu .zhongjian .liebiao ul .a{
+	width: 80px;
+	height: 40px;
+	
+	position: relative;
+	top: -40px;
+}
+.dibu .zhongjian .zouxiu{
+	width: 262px;
+	height: 132px;
+
+	float: right;
+	margin-top: 119px;
+	}
+.dibu .zhongjian .beianhao {
+	width: 600px;
+	
+	margin: 0 auto;
+	margin-top: 369px;
+}
+.dibu .zhongjian .beianhao ul li {
+	font-size: 14px;
+	color: #FFFFFF;
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+}	
+/* 底部结束 */	
+	

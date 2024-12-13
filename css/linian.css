@@ -1,0 +1,431 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 思源黑体;
+	
+}
+/* 第一大部分开始 */
+/* 顶部 */
+ .bigbox .dingbu{ 
+	 width: 1200px;
+	 height: 42px;
+	
+	 
+	 margin: 0 auto;
+	overflow: hidden;
+	margin-top: 20px;
+ }
+ .dingbu img{
+	float: left;	
+	margin-top: 10px;
+ }
+.dingbu h1 {
+	float: left;
+	margin: 0 auto;
+	margin-left:200px;
+border-left: 50px;
+padding-top: 0px;
+/* background-color: aliceblue; */
+font-size: 40px;
+width: 400px;
+height: px;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+ .dingbu  ul {
+	 padding-top: 4px;
+	 float: right;
+	 overflow: hidden;
+	
+	 margin-top: 17px;
+ } 
+ .dingbu ul li{
+	 float: left;
+	 list-style-type: none;
+font-size: 14px;
+margin-right: 5px;
+ }
+ 
+.dingbu ul li a{ text-decoration: none;
+color: #666666;
+font-weight: bold;
+
+}
+
+.dingbu ul li img{
+	width:14px;
+	height: 14px;
+	margin-top: 2px;
+}
+
+
+/* 第二部分 */
+/* 导航开始 */
+/* 导航开始 */
+.navigation {
+	background-color: #FFFFFF;
+	font-weight: 540;
+	width: 1200px;
+	
+	margin: 0 auto;
+}
+
+.navigation-list {
+	font-size: 0;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin-left: 305px;
+	
+}
+
+.navigation-item {
+	font-size: 20px;
+	float: left;
+	margin: 0 auto;
+	list-style-type: none;
+}
+
+.navigation-link {
+	display: block;
+	position: relative;
+	padding: 5px 30px;
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+
+.navigation-link:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 0;
+	border-bottom: solid 2px;
+}
+
+.navigation-link:before {
+	left: 0;
+}
+
+.navigation-link:hover {
+	color: #009688;
+}
+
+.navigation-link:hover:before {
+	width: 100%;
+}
+
+.navigation-link:before {
+	-webkit-transition: width .2s ease-in-out;
+	transition: width .2s ease-in-out;
+}
+
+/* 导航结束 */
+
+/* bnnner部分 */
+ul,li {list-style: none;}
+a {text-decoration: none;color: black;}
+.box{width: 100%;height: 750px;margin: 20px auto;overflow: hidden;position: relative;margin-top: 40px;
+}
+.box-1 ul{}
+.box-1 ul li{width: 1920px;height: 750px;position: relative;overflow: hidden;}
+.box-1 ul li img{display:block;width: 1920px; height: 750px;}
+.box-1 ul li h2{position: absolute;left: 0;bottom: 0;height: 40px;width:300px;background: rgba(125,125,120,.4);text-indent: 2em;
+				padding-right:500px ;font-size: 15px;line-height: 40px;text-overflow: ellipsis;overflow: hidden;
+				white-space: nowrap;font-weight: normal;color: ghostwhite}
+.box-2{position: absolute;right: 10px;bottom: 14px;}
+.box-2 ul li{float:left;width: 12px;height: 12px;overflow: hidden; margin: 0 5px; border-radius: 50%;
+				background: rgba(0,0,0,0.5);text-indent: 100px;cursor: pointer;}
+.box-2 ul .on{background: rgba(255,255,255,0.6);}
+.box-3 span{position: absolute;color: white;background: rgba(125,125,120,.3);width: 50px;height: 80px;
+				top:50%; font-family: "宋体";line-height: 80px;font-size:60px;margin-top: -40px;
+				text-align: center;cursor: pointer;}
+.box-3 .prev{left: 10px;}
+.box-3 .next{right: 10px;}
+.box-3 span::selection{background: transparent;}
+.box-3 span:hover{background: rgba(125,125,120,.8);}
+/* 轮播图结束 */
+
+/* 中间一大部分开始 */
+.pinpaijieshao{
+	width: 1200px;
+	margin: 0 auto;
+	
+	margin-top: 100px;
+}
+.biaoti {
+	width: 196px;
+	margin: 0 auto;
+	
+}
+.fengqing{
+	width: 1200px;
+	height: 346px;
+	background-color: #ECECEC;
+	margin-top: 94px;
+}
+
+.fengqing img{
+	float: left;
+	margin-top: 36px;
+	margin-left: 30px;
+	
+}
+
+
+.fengqing .zi p{
+	font-size: 30px;
+	color: #666666;
+	margin-top: 100px;
+	float: right;
+	margin-top: 100px;
+	margin-right: 30px;
+	
+}
+.fengqing .zi span{
+	font-weight: 600;
+	position: relative;
+	top: 34px;
+}
+.fengqing .zi .jiazhong{
+	color: #000000;
+	
+}
+/* 第一部分结束 */
+
+/* 品牌风格开始 */
+.fengge{
+	width: 1200px;
+	height: 462px;
+	margin-top: 100px;
+}
+
+.fengge .huise{
+	height: 346px;
+	width: 865px;
+	background-color: #ECECEC;
+	position: relative;
+	bottom: -117px;
+}
+.fengge img{
+	float: right;
+}
+
+.fengge .biao{
+	font-size: 30px;
+	color: #666666;
+	font-weight: 600;
+	position: relative;
+	top:68px;
+	left: 32px;
+}
+.fengge .biao span{
+	color: #333333;
+}
+.fengge .xian{float: left;
+position: relative;
+	top:78px;
+	left: 32px;
+}
+
+.fengge .zj{
+	color: #666666;
+	font-size: 14px;
+	font-weight: 700;
+	float: left;
+	position: relative;
+	top: 110px;
+	left: -174px;
+	
+}
+.fengge .zj span{
+	font-size: 16px;
+	position: relative;
+	top: 4px;
+	
+}
+.fengge .dawenduan{
+	width: 498px;
+	height: 73px;
+	
+	position: relative;
+	top: 140px;
+	left: 32px;
+	margin-top:40px ;
+	
+}
+.fengge .dawenduan p{
+	font-size: 12px;
+	color: #666666;
+	float: left;
+	text-align: left;
+	font-weight: bolder;
+	
+	line-height: 24px;
+}
+/* 品牌风格结束 */
+
+/* 品牌定位开始 */
+.fengge2{
+	width: 1200px;
+	height: 462px;
+	margin-top: 100px;
+}
+
+.fengge2 .huise{
+	height: 346px;
+	width: 865px;
+	background-color: #ECECEC;
+	position: relative;
+	bottom: -117px;
+	float: right;
+}
+.fengge2 img{
+	float: left;
+}
+
+.fengge2 .biao{
+	font-size: 30px;
+	color: #666666;
+	font-weight: 600;
+	position: relative;
+	top:68px;
+	right: 32px;
+	float: right;
+}
+.fengge2 .biao span{
+	color: #333333;
+}
+.fengge2 .xian{float: right;
+position: relative;
+	top:120px;
+	left: 100px;
+	
+}
+
+.fengge2 .zj{
+	color: #666666;
+	font-size: 14px;
+	font-weight: 700;
+	float: right;
+	position: relative;
+	top: 150px;left: 300px;
+	
+	
+}
+.fengge2 .zj span{
+	font-size: 16px;
+	position: relative;
+	top: 4px;
+	
+}
+.fengge2 .dawenduan{
+	width: 498px;
+	height: 73px;
+	
+	position: relative;
+	top: 140px;
+	right:32px ;
+	margin-top:40px ;
+	float: right ;
+}
+.fengge2 .dawenduan p{
+	font-size: 12px;
+	color: #666666;
+	float: left;
+	text-align: left;
+	font-weight: bolder;
+	
+	line-height: 24px;
+}
+/* 品牌定位结束 */
+.shuoming{
+	width: 660px;margin: 0 auto;margin-top: 102px;
+	height: 402px;
+}
+.shuoming .xinxi{
+	width: 660px;
+	height: 329px;
+	
+	margin-top: 40px;
+	
+	
+}
+.shuoming .xinxi p{
+	font-size: 30px;color: #666666;
+	text-align: center;
+	line-height: 45px;
+}
+
+.shuoming img{
+	width: 300px;
+	height: 32px;
+	
+	margin-left: 182px;
+}
+/* 中间部分结束 */
+
+/* 底部开始 */
+.dibu{
+	height: 415px;
+	background-color: #2a292d;
+	margin-top: 86px;}
+	
+.dibu .zhongjian{
+	width: 1200px;
+	height: 415px;
+	
+	margin: 0 auto;
+	overflow: hidden;
+}
+.dibu .zhongjian .liebiao{
+	width: 800px;
+	height: 200px;
+	
+	position: absolute;
+	margin-top: 115px;
+	
+}
+
+.dibu .zhongjian .liebiao ul{
+	float: left;
+	margin-right: 96px;
+	margin-top: 66px;
+	
+}
+.dibu .zhongjian .liebiao ul li{
+	font-size: 20px;
+	line-height: 30px;
+	list-style-type: none;
+	color: #FFFFFF;
+}
+.dibu .zhongjian .liebiao ul .a{
+	width: 80px;
+	height: 40px;
+	
+	position: relative;
+	top: -40px;
+}
+.dibu .zhongjian .zouxiu{
+	width: 262px;
+	height: 132px;
+	
+	float: right;
+	margin-top: 119px;
+	}
+.dibu .zhongjian .beianhao {
+	width: 600px;
+	
+	margin: 0 auto;
+	margin-top: 369px;
+}
+.dibu .zhongjian .beianhao ul li {
+	font-size: 14px;
+	color: #FFFFFF;
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+}	
+/* 底部结束 */	
